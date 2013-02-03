@@ -1,0 +1,75 @@
+/* 
+Theme Name: WP Bootstrap 
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial 
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>. 
+Author: Zac Gordon Author 
+URI: http://teamtreehouse.com/ 
+Version: 1.0 
+Tags: responsive, white, bootstrap 
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) 
+License URI: http://creativecommons.org/licenses/by-sa/3.0/ 
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html 
+*/
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+@import url('http://fonts.googleapis.com/css?family=Poly:400,400italic');
+
+/* #Site Styles
+================================================== */
+body {
+	background: #fff;
+	font: 14px/21px "Poly", "Times New Roman", "Georgia", serif;
+	color: #444;
+}
+
+/* #Links
+================================================== */
+a, a:visited { color: #444; text-decoration: underline; outline: 0; }
+a:hover, a:focus { color: #333; }
+p a, p a:visited { line-height: inherit; }
+
+a.notextdecoration {
+	text-decoration: none;
+}
+
+a.notextdecoration:hover {
+	color: #444;
+	text-decoration: none;
+}
+
+/* #Styles
+================================================== */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+}
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+.pagetitle {
+	margin: 60px auto;
+	text-align: justify;
+	word-wrap: break-word; 
+	width: 270px;
+	font-size: 80px;
+	line-height: 75%;
+}
+
+.pagetitle > hr {
+	margin: 30px 0;
+}
+
+.pagemenu {
+	text-align: center;
+	margin: 0px auto;
+}
+
+.copyright { 
+	font-size: 12px;
+	float: left;
+	padding: 0px 0 0 0;
+	line-height: 30px; 
+}
